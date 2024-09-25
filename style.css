@@ -95,6 +95,8 @@ table tr td{
 }
 
 table{
+    width: 70vw; /* Set a width for the table */
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
@@ -133,7 +135,7 @@ a:hover{
 }
 
 dd{
-    padding: 1em;
+    padding-top: 1.5em;
     margin: 0%;
     word-spacing: .7em;
     letter-spacing: .03em;
