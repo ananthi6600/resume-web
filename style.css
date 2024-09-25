@@ -1,0 +1,182 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 2.5em;
+    margin-top: 0;
+    background-color: rgb(224, 253, 216);
+    font-size: .9em;
+}
+
+.float-img{
+    margin-right: 15px; /* Space between the image and the nav */
+    height: 9em; 
+}
+header{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #f5d4f5;
+    padding: 1em;
+    border-radius:1em;
+  }
+
+img{
+    float: right;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+}
+
+.gap{
+ margin-bottom: 3.5em;
+}
+
+table{
+    width: 100%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(230, 185, 236); /* Light Gray */
+}
+
+h5{
+    margin: 0;
+    margin-bottom: 1.5em;
+    padding-top: 0;
+    font-weight: bolder;
+}
+
+.links{
+    padding: .3em;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+ }
+
+ .change-size{
+    font-size:.9em ;
+ }
+
+nav a{
+    text-decoration: none;
+    color: rgb(111, 4, 173);
+}
+
+h4{
+    color: rgb(224, 37, 224);
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+
+ul{
+    list-style-type: square;
+    padding: 0;
+    margin: 1em;
+}
+li{
+    margin: .7em;
+}
+progress{
+    width: 17em;
+    height: 1em;
+}
+
+table tr td{
+    padding: 1em;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table thead td{
+    font-weight: bold;
+}
+
+abbr{
+    text-decoration: none;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    font-weight: bold;
+}
+.nav-items{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+span{
+    color: rgb(111, 4, 173);
+}
+
+a:hover{
+    color: rgb(224, 37, 224);
+}
+.project-items{
+    color: black;
+    font-weight: bold;
+}
+
+dd{
+    padding: 1em;
+    margin: 0%;
+    word-spacing: .7em;
+    letter-spacing: .03em;
+    text-align: justify;
+}
+
+p, li, address, h4, h1{
+    word-spacing: .5em;
+    letter-spacing: .03em;
+    text-align: justify;
+}
+
+address{
+    font-style: normal; 
+    padding: 0;
+}
+
+/* Hide default appearance */
+progress {
+    -webkit-appearance: none; /* For Safari */
+    appearance: none;
+    width: 60%; /* Adjust width as needed */
+    height: .3em; /* Adjust height as needed */
+}
+
+/* For Webkit browsers */
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+progress::-webkit-progress-value {
+    background-color: violet; /* Filled portion color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* For Firefox */
+progress::-moz-progress-bar {
+    background-color: violet; /* Filled portion color */
+}
+
+/* Optional: Custom styling for the empty portion */
+progress::-moz-progress-track {
+    background-color: #e0e0e0; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+}
