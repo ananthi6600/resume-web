@@ -1,23 +1,24 @@
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 2.5em;
-    margin-top: 0;
+    margin: 2em;
     background-color: rgb(255, 255, 255);
     font-size: .9em;
+    
 }
 
 .float-img{
-    margin-right: 15px; /* Space between the image and the nav */
+    margin: 0;
     height: 9em; 
+}
+
+.head-items{
+    margin-right: .5em;
 }
 header{
     position: sticky;
     top: 0;
-    padding: 5px;
-    background-color: #f5d4f5;
+    padding: .3em;
+    background-color: #f2ddfc;
     padding: 1em;
     border-radius:1em;
   }
@@ -32,12 +33,8 @@ h1{
     font-size: 2.5em;
 }
 
-.gap{
+.body-items{
  margin-bottom: 3.5em;
-}
-
-table{
-    width: 100%;
 }
 
 tbody tr:nth-child(odd) {
@@ -60,7 +57,7 @@ h5{
     color: rgb(0, 0, 0);
  }
 
- .change-size{
+ .add{
     font-size:.9em ;
  }
 
@@ -95,8 +92,6 @@ table tr td{
 }
 
 table{
-    width: 70vw; /* Set a width for the table */
-    margin: 0 auto;
     border-collapse: collapse;
 }
 
@@ -122,6 +117,7 @@ footer p{
     padding-bottom: 0;
 }
 
+
 span{
     color: rgb(111, 4, 173);
 }
@@ -136,29 +132,28 @@ a:hover{
 
 dd{
     padding-top: 1.5em;
-    margin: 0%;
-    word-spacing: .7em;
-    letter-spacing: .03em;
-    text-align: justify;
+    margin-left: 1em;
 }
 
-p, li, address, h4, h1{
-    word-spacing: .5em;
-    letter-spacing: .03em;
-    text-align: justify;
-}
+
+  p, li, address, h4, h1, dd{
+        word-spacing: .5em;
+        letter-spacing: .03em;
+        text-align: justify;
+    }
 
 address{
     font-style: normal; 
     padding: 0;
+    margin-right: .5em;
 }
 
 /* Hide default appearance */
 progress {
     -webkit-appearance: none; /* For Safari */
     appearance: none;
-    width: 60%; /* Adjust width as needed */
-    height: .3em; /* Adjust height as needed */
+    width: 50%; /* Adjust width as needed */
+    height: .4em; /* Adjust height as needed */
 }
 
 /* For Webkit browsers */
@@ -182,3 +177,6 @@ progress::-moz-progress-track {
     background-color: #e0e0e0; /* Background color */
     border-radius: 10px; /* Rounded corners */
 }
+
+
+
