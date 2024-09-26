@@ -1,6 +1,6 @@
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
-    margin: 2em;
+    margin: 0em 2em;
     background-color: rgb(255, 255, 255);
     font-size: .9em;
     
@@ -18,7 +18,7 @@ header{
     position: sticky;
     top: 0;
     padding: .3em;
-    background-color: #f2ddfc;
+    background-color: #eedff5;;
     padding: 1em;
     border-radius:1em;
   }
